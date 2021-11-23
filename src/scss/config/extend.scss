@@ -1,0 +1,56 @@
+@import './color';
+
+%standard-boxshadow {
+  box-shadow: 3px 0 13px 0 rgba(100, 112, 134, 0.1);
+}
+
+%margin-center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin input{
+  height: 40px;
+  border: 1px solid var(--input-bder);
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 0.5rem;
+  background-color: var(--body-bg);
+  color: var(--body-color);
+  &:hover , &:active{
+    border-color: var(--selected-step);
+  }
+}
+%input-style{
+  @include input;
+}
+
+
+%position-center{
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+%grid-layout{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat ( 12 , 1fr );
+}
+
+%flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin overflow-clamp{
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 1; 
+  overflow: hidden;
+}
+%overflow-clamp{
+  @include overflow-clamp;
+}

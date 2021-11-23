@@ -1,0 +1,52 @@
+/* basic setting */
+$white: #fff;
+$main-blue: #001935;
+$secondary-blue: #3c88fd;
+$freedom-blue: #02b8ff;
+$dark-gray: #4a4a4a;
+$light-gray: #a7aaaf;
+
+:root {
+  --body-bg: #FFFFFF;
+  --footer-bg: #F6F7F8;
+  --footer-color:#7D7E86;
+  --next-btn: #F67599;
+  --body-color: #2A2A2A;
+  --divider: #E6E6EB;
+  --form-title: #808080;
+  --cart-bg: #FFFFFF;
+  --cart-btn: #F0F0F5;
+  --input-bder:#4A4A4A;
+  --input-color:#999999;
+  --input-label:#808080;
+  --selected-step:#2A2A2A;
+  --unselected-step:#AFB1BD;
+  --logo-url: url("../images/Logo@2x.png");
+  --darkmode-toggle-url: url("../images/icon@darkmode.png");
+  --search-url: url("../images/icon@search.png");
+  --cart-url: url("../images/icon@cart.png");
+  }
+
+  [data-theme="dark"]{
+    --body-bg: #121212;
+    --footer-bg: #333333;
+    --footer-color:#ADADAD;
+    --next-btn: #F67599;
+    --body-color: #FFFFFF;
+    --divider: rgba(255, 255, 255, 0.2);
+    --form-title: rgba(255, 255, 255, 0.4);
+    --cart-bg: #383838;
+    --cart-btn: #808080;
+    --input-bder:#5E5E5E;
+    --input-color:rgba(255, 255, 255, 0.3);
+    --input-label:rgba(255, 255, 255, 0.4);
+    --selected-step:#FFFFFF;
+    --unselected-step:rgba(255, 255, 255, 0.4);
+    --logo-url: url("../images/Logo@2xdarkmodelogo.png");
+    --darkmode-toggle-url: url("../images/icon@lightmode.png");
+    --search-url: url("../images/icon@darkmode__search.png");
+    --cart-url: url("../images/icom@darkmode__cart.png");
+
+  }
+
+  
